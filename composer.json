@@ -1,0 +1,29 @@
+{
+  "name": "previewtechs/GoogleDataStore",
+  "description": "Google Cloud DataStore Wrapper",
+  "license": "MIT",
+  "keywords": [
+    "Google",
+    "DataStore",
+    "Google DataStore",
+    "Google Cloud",
+    "NoSQL Datastore"
+  ],
+  "authors": [
+    {
+      "name": "Preview Technologies",
+      "email": "info@previewtechs.com"
+    }
+  ],
+  "require": {
+    "google/apiclient": "^2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Previewtechs\\GoogleDataStore\\": "src"
+    }
+  }
+}
